@@ -1,0 +1,137 @@
+
+@charset "UTF-8";
+
+a{
+    font-family:arial;
+}
+/* 顶部的按钮 */
+.title{
+    width: 100%;
+    background: #3e98f0;
+}
+
+.top{
+    height: 1.700483rem;
+    border-bottom: 1px  solid #5dabf0;
+    display:flex;
+    justify-content: space-between;
+    overflow:hidden;
+}
+
+.top div{
+    width: 1.31401rem;
+    height:100%;
+    flex:auto;
+
+}
+
+.top div:nth-child(1){
+    background:  url('../image/bg-new-toolbar.png')  no-repeat;
+    background-size: 1.545894rem 19.323671rem;
+}
+.top div:nth-child(2){
+    background: url('../image/bg-new-toolbar.png') 0 -18.048309rem no-repeat;
+    background-size: 1.545894rem 19.323671rem;
+    margin-left:10px;
+}
+.top div:nth-child(3){
+    box-sizing:border-box;
+    padding-top:0.270531rem;
+    width: 10.628019rem;
+    background: url('../image/bg-news-logo.png') center 0.270531rem no-repeat;
+    background-size: auto 0.850242rem;
+}
+.top div:nth-child(4){
+    background:  url('../image/bg-new-toolbar.png') 0 -6.376812rem  no-repeat;
+    background-size: 1.545894rem 19.323671rem;
+}
+.top div:nth-child(5){
+        background:  url('../image/bg-new-toolbar.png') 0 -4.289855rem  no-repeat;
+    background-size: 1.545894rem 19.323671rem;
+    margin-right: 0.386473rem;
+    /* background-position:center; */
+}
+.item{
+
+}
+.item div{
+    width: 2.666667rem;
+    height: 1.275362rem;
+    line-height: 1.275362rem;
+    color:#fff;
+    font-size:100%;
+    text-align:center;
+
+}
+.item div a{
+    color:#fff;
+}
+.item div a:focus{
+    outline:none;
+    text-decoration:underline;
+}
+/* 轮播 */
+.carousel{
+    box-sizing:border-box;
+    width:100%;
+    height:10.280193rem;
+    padding: 0.386473rem ;
+    padding-bottom:0;
+
+}
+.carousel ul{
+    width: 15.304348rem;
+    height:9.89372rem;
+    overflow:hidden ;
+}
+.carousel li{
+    float: left;
+}
+.carousel img{
+ width: 15.304348rem;
+ height:9.89372rem;
+}
+
+/* 新闻内容 */
+.content{
+    margin-top:0.772947rem;
+    padding: 0.386473rem;
+    background:#456789;
+}
+/* 图片的定位 */
+
+.content div{
+
+    margin-top:0.386473rem;
+    margin-bottom:0.386473rem;
+}
+.onepicture {
+    display:flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.picture{
+     width: 3.748792rem;
+    height: 2.589372rem;
+    flex:1;
+}
+.onepicture img{
+    width: 3.748792rem;
+    height: 2.589372rem;
+}
+
+.onepicture  .newscontent{
+    width:10.821256rem;
+    height: 2.589372rem;
+}
+/* 三张图片的情况 */
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    align-content:start;
+}
+
+.pictures img{
+    width: 4.714976rem;
+    height:3.400966rem;
+}

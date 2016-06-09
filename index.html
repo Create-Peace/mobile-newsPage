@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>baidunews</title>
+    <meta name="viewport" content=" width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 初始化rem单位的大小 -->
+    <script>
+    //切换设备时自动刷新
+    window.onload = window.onresize = function() {
+        //获取可视区的宽度
+        var iWidth = document.documentElement.clientWidth;
+        //动态设置根字体
+        document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+    }
+    </script>
+    <link rel="stylesheet" href="css/neat.css">
+    <link rel="stylesheet" href="css/baidu.css">
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="title">
+        <div class="top">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="item">
+            <div><a href="#">推荐</a></div>
+            <div><a href="#">百家</a></div>
+        </div>
+    </div>
+    <!-- 轮播 -->
+    <div class="carousel">
+        <ul class="clearfix">
+            <li>
+                <a href="#"><img src="#" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="#" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="#" alt=""></a>
+            </li>
+        </ul>
+    </div>
+    <!-- 新闻正文 -->
+    <div class="content">
+    </div>
+    <script type="text/template" id="news-html">
+    <!-- 一张的图片 -->
+    <div class="onepicture">
+        <div class="picture">
+            <img src="" alt="">
+        </div>
+        <div class="newscontent">
+            <p>习近平“示范”领导干部如何过个“轻松节”</p>
+        </div>
+    </div>
+    <!-- 三张图片的 -->
+    <div class="threepicture">
+        <div class="contentnews">
+            <p>45股大非近发布减持计划 9股将遭清仓式抛售</p>
+        </div>
+        <div class="pictures">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+    </div>
+    </script>
+</body>
+
+</html>
